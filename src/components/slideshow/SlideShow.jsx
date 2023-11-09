@@ -43,7 +43,7 @@ function SlideShow() {
 
   return (
     <>
-      <div className="w-full md:h-[450px] h-[250px] m-auto py-1 px-0 relative group">
+      <div className="w-full md:h-[500px] h-[250px] m-auto py-1 px-0 relative group">
         <div
           style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
           className="w-full h-full rounded-1xl bg-center bg-cover duration-500"

@@ -17,13 +17,13 @@ function NavList({ isOpen }) {
             className="text-gray-700 transition-colors duration-300 transform lg:mx-6 font-bold text-xl font-serif hover:text-teal-400"
             href="#"
           >
-            الجديد
+            من نحن
           </a>
           <a
             className="text-gray-700 transition-colors duration-300 transform lg:mx-6 font-bold text-xl font-serif hover:text-teal-400"
             href="#"
           >
-            من نحن
+            المشاريع
           </a>
           <a
             className="text-gray-700 transition-colors duration-300 transform lg:mx-8 font-bold text-xl font-serif  hover:text-teal-400"
