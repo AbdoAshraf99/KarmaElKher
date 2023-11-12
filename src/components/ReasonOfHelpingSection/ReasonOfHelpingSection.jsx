@@ -1,9 +1,10 @@
 import ReasonCard from "./ReasonCard";
-
+import bgImage from "../../assets/bg/bg3.jpg"
 function ReasonOfHelpingSection() {
   return (
     <>
-      <div className="  lg:h-[690px] w-full  bg-teal-600 bg-cover bg-opacity-5 p-4">
+      <div className="bg-[url('')] lg:h-[690px] w-full bg-teal-600 bg-cover bg-center bg-opacity-5 p-4"
+       style={{ backgroundImage: `url(${bgImage})` }}>
         <div dir="rtl">
           <h1 className="text-5xl text-gray-700 font-bold font-serif mt-10 items-center m-auto flex flex-row justify-center">
             المشاريع
