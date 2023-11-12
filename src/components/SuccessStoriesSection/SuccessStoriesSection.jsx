@@ -1,10 +1,15 @@
+import { useState } from "react";
+
 function SuccessStoriesSection(){
+
+    const [successStoriesIndex,setSuccessStoriesIndex]=useState();
+
     const itemsList=[
-        {title:"حملة اطعام اطفال مصر",desc:"هذا مثال لشرح اهداف حمله و غيره و ذلك لعرض شكل الشرح بالتفصيل",pic:"https://img.freepik.com/free-photo/side-view-smiley-kid-with-popcorn_23-2149439457.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698364800&semt=ais"},
+        {title:"حملة اطعام اطفال مصر",desc:"هذا مثال لشرح اهداف حمله و غيره و ذلك لعرض شكل الشرح بالتفصيل",pic:"https://img.freepik.com/free-photo/side-view-smiley-kid-with-popcorn_23-2149439457.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698364800&semt=ais",actor:"احمد اسامه"},
     ];
 
     return <>
-    <section dir="rtl" className="bg-teal-50">
+    <section dir="rtl" className="bg-[#f1f9f9]">
 
     <div className="container px-6 py-10 mx-auto z-10">
         <div className="lg:-mx-6 lg:flex lg:items-center">
@@ -21,8 +26,9 @@ function SuccessStoriesSection(){
                     “ {itemsList[0].desc} ”
                 </p>
 
-                <h3 className="mt-6 text-lg font-medium text-blue-500">Mia Brown</h3>
-                <p className="text-gray-600 dark:text-gray-300">Marketing Manager at Stech</p>
+                {/* <h3 className="mt-6 text-lg font-medium text-blue-500"></h3>
+                <p className="text-gray-600 dark:text-gray-300">Marketing Manager at Stech</p> */}
+                <button className="bg-teal-600 rounded-xl p-3 my-4 text-white text-[15px] hover:bg-teal-500">اعرف المزيد</button>
 
                 <div className="flex items-center justify-between mt-12 lg:justify-start">
                     <button title="left arrow" className="p-2 text-gray-800 transition-colors duration-300 border rounded-full rtl:-scale-x-100 border-gray-700 lg:mx-6 hover:bg-teal-700">
